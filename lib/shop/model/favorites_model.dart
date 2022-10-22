@@ -6,7 +6,7 @@ class FavoritesModel {
   FavoritesModel.fromJson(Map<String, dynamic> json) {
     status = json['status'];
     message = json['message'];
-    data = json['data'] != null ? new Data.fromJson(json['data']) : null;
+    data = json['data'] != null ? Data.fromJson(json['data']) : null;
   }
 }
 
@@ -29,7 +29,7 @@ class Data {
     if (json['data'] != null) {
       data = <FavData>[];
       json['data'].forEach((v) {
-        data!.add(new FavData.fromJson(v));
+        data!.add(FavData.fromJson(v));
       });
     }
     firstPageUrl = json['first_page_url'];
@@ -52,7 +52,7 @@ class FavData {
   FavData.fromJson(Map<String, dynamic> json) {
     id = json['id'];
     product =
-        json['product'] != null ? new Product.fromJson(json['product']) : null;
+        json['product'] != null ? Product.fromJson(json['product']) : null;
   }
 }
 

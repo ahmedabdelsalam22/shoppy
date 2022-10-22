@@ -1,16 +1,28 @@
 # shop_app_udgrade
+A new Flutter application., This application fetches the data from back-end with Api display interface in the application
 
-A new Flutter project.
+#in this App i'm use this features ..
 
-## Getting Started
+Flutter Widgets Bloc Api & get
 
-This project is a starting point for a Flutter application.
+Api & Post
 
-A few resources to get you started if this is your first Flutter project:
+Api & Put
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Api & Update
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials, samples, guidance on
-mobile development, and a full API reference.
+Api & search
+
+Dio Package
+
+SharedPreference
+
+Theme
+
+onBoarding Screen
+
+Register
+
+Login
+
+Profile

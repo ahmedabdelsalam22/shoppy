@@ -6,6 +6,7 @@ import 'package:shop_app_udgrade/shop/shared/components.dart';
 import 'package:shop_app_udgrade/shop/shared/network/local/cache_helper.dart';
 import 'package:shop_app_udgrade/shop/shared/style/color_manager.dart';
 
+import '../module/search/search_screen.dart';
 import 'cubit/cubit.dart';
 import 'cubit/states.dart';
 
@@ -26,7 +27,7 @@ class ShopLayout extends StatelessWidget {
             leading: IconButton(
               icon: const Icon(
                 Icons.logout,
-                color: Colors.deepOrange,
+                color: ColorManager.primarySwatchLight,
               ),
               onPressed: () {
                 CacheHelper.removeData(key: 'token').then((value) {
@@ -39,7 +40,7 @@ class ShopLayout extends StatelessWidget {
             actions: [
               IconButton(
                   onPressed: () {
-                    // pushNamed(context,SearchScreen.routeName);
+                    pushNamed(context, SearchScreen.routeName);
                   },
                   icon: const Icon(
                     Icons.search,

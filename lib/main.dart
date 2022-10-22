@@ -3,7 +3,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shop_app_udgrade/shop/layout/cubit/cubit.dart';
 import 'package:shop_app_udgrade/shop/layout/shop_layout.dart';
 import 'package:shop_app_udgrade/shop/module/login/login_screen.dart';
+import 'package:shop_app_udgrade/shop/module/on_boarding/on_boarding_screen.dart';
 import 'package:shop_app_udgrade/shop/module/register/register_screen.dart';
+import 'package:shop_app_udgrade/shop/module/search/search_screen.dart';
 import 'package:shop_app_udgrade/shop/shared/network/api_const.dart';
 import 'package:shop_app_udgrade/shop/shared/network/local/cache_helper.dart';
 import 'package:shop_app_udgrade/shop/shared/network/remote/dio_helper.dart';
@@ -52,12 +54,12 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: appLightTheme,
-        home: token != null ? const ShopLayout() : LoginScreen(),
+        home: token != null ? const ShopLayout() : const OnBoardingScreen(),
         routes: {
           LoginScreen.routeName: (ctx) => LoginScreen(),
           RegisterScreen.routeName: (ctx) => RegisterScreen(),
           ShopLayout.routeName: (ctx) => const ShopLayout(),
-          //SearchScreen.routeName : (ctx) =>   SearchScreen(),
+          SearchScreen.routeName: (ctx) => SearchScreen(),
         },
       ),
     );

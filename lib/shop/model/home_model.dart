@@ -4,7 +4,7 @@ class HomeModel {
 
   HomeModel.fromJson(Map<String, dynamic> json) {
     status = json['status'];
-    data = json['data'] != null ? new Data.fromJson(json['data']) : null;
+    data = json['data'] != null ? Data.fromJson(json['data']) : null;
   }
 }
 
@@ -16,13 +16,13 @@ class Data {
     if (json['banners'] != null) {
       banners = <Banners>[];
       json['banners'].forEach((v) {
-        banners!.add(new Banners.fromJson(v));
+        banners!.add(Banners.fromJson(v));
       });
     }
     if (json['products'] != null) {
       products = <Products>[];
       json['products'].forEach((v) {
-        products!.add(new Products.fromJson(v));
+        products!.add(Products.fromJson(v));
       });
     }
   }

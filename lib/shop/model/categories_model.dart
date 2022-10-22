@@ -5,7 +5,7 @@ class CategoriesModel {
   CategoriesModel.fromJson(Map<String, dynamic> json) {
     status = json['status'];
     data = json['data'] != null
-        ? new CategoriesDataModel.fromJson(json['data'])
+        ? CategoriesDataModel.fromJson(json['data'])
         : null;
   }
 }
@@ -19,7 +19,7 @@ class CategoriesDataModel {
     if (json['data'] != null) {
       data = <DataModel>[];
       json['data'].forEach((v) {
-        data!.add(new DataModel.fromJson(v));
+        data!.add(DataModel.fromJson(v));
       });
     }
   }

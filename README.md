@@ -7,25 +7,36 @@ Flutter Widgets Bloc Api & get
 
 with null safety 
 
-Api & Post
+Rest Api & Post & Put & Update & search
 
-Api & Put
+Dio Package - dio 
 
-Api & Update
+state managment (flutter_bloc) & bloc 
 
-Api & search
-
-Dio Package
 
 SharedPreference
 
-Theme
+Theme 
 
 onBoarding Screen
 
 Register
 
 Login
+
+flutter_spinkit
+
+smooth_page_indicator
+
+flutter_iconly
+
+conditional_builder_null_safety
+
+fluttertoast
+
+carousel_slider
+
+
 
 Profile![06](https://user-images.githubusercontent.com/75587814/197336769-6357bbef-5043-44c0-98ac-ae040217a996.jpeg)
 ![05](https://user-images.githubusercontent.com/75587814/197336770-3a7766b6-161a-417a-8d06-ae71803c03ea.jpeg)

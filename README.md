@@ -5,6 +5,8 @@ A new Flutter application., This application fetches the data from back-end with
 
 Flutter Widgets Bloc Api & get
 
+with null safety 
+
 Api & Post
 
 Api & Put

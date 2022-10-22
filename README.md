@@ -3,38 +3,37 @@ A new Flutter application., This application fetches the data from back-end with
 
 #in this App i'm use this features ..
 
-Flutter Widgets Bloc Api & get
+- Flutter Widgets Bloc Api & get
 
-with null safety 
+- with null safety 
 
-Rest Api & Post & Put & Update & search
+- Rest Api & Post & Put & Update & search
 
-Dio Package - dio 
+- Dio Package - dio 
 
-state managment (flutter_bloc) & bloc 
+- state managment (flutter_bloc) & bloc 
 
+- SharedPreference
 
-SharedPreference
+- Theme 
 
-Theme 
+- onBoarding Screen
 
-onBoarding Screen
+- Register
 
-Register
+- Login
 
-Login
+- flutter_spinkit
 
-flutter_spinkit
+- smooth_page_indicator
 
-smooth_page_indicator
+- flutter_iconly
 
-flutter_iconly
+- conditional_builder_null_safety
 
-conditional_builder_null_safety
+- fluttertoast
 
-fluttertoast
-
-carousel_slider
+- carousel_slider
 
 
 
